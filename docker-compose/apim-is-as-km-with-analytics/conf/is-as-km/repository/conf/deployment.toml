@@ -22,7 +22,6 @@ username = "wso2carbon"
 password = "wso2carbon"
 
 [database.shared_db]
-#type = "mysql"
 url = "jdbc:mysql://mysql:3306/WSO2AM_SHARED_DB?autoReconnect=true&amp;useSSL=false"
 username = "wso2carbon"
 password = "wso2carbon"
