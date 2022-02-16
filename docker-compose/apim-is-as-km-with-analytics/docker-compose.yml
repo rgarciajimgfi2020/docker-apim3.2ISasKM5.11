@@ -49,7 +49,7 @@ services:
     ports:
       - "9444:9443"
   api-manager:
-    build: apim:3.2.0
+    build: ./dockerfiles/apim
     healthcheck:
       test: ["CMD", "nc", "-z","localhost", "9443"]
       interval: 10s
