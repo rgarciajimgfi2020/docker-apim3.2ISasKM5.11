@@ -20,3 +20,6 @@ to quickly evaluate product features along side their co-operate API Management 
 Docker images of WSO2 API Manager, API Manager Analytics and WSO2 Identity Server as Key Manager, as well as MySQL.
 
 **Change log** from previous v3.1.0.3 release: [View Here](CHANGELOG.md)
+
+URL:
+https://medium.com/geekculture/integrating-wso2-apim-api-microgateway-with-wso2-identity-server-2eb3c91caafc
