@@ -6,8 +6,7 @@ base_path = "https://$ref{server.hostname}:${carbon.management.port}"
 [super_admin]
 username = "admin"
 password = "admin"
-#create_admin_account = true
-create_admin_account = false
+create_admin_account = true
 
 [user_store]
 type = "read_write_ldap_unique_id"
