@@ -93,8 +93,8 @@ https_endpoint = "https://localhost:${https.nio.port}"
 #expiry_time = "2m"
 
 [apim.analytics]
-enable = true
-store_api_url = "https://am-analytics-worker:7444"
+#enable = true
+#store_api_url = "https://am-analytics-worker:7444"
 #username = "$ref{super_admin.username}"
 #password = "$ref{super_admin.password}"
 #event_publisher_type = "default"
@@ -102,8 +102,8 @@ store_api_url = "https://am-analytics-worker:7444"
 #publish_response_size = true
 
 [[apim.analytics.url_group]]
-analytics_url =["tcp://am-analytics-worker:7612"]
-analytics_auth_url =["ssl://am-analytics-worker:7712"]
+#analytics_url =["tcp://am-analytics-worker:7612"]
+#analytics_auth_url =["ssl://am-analytics-worker:7712"]
 #type = "loadbalance"
 
 #[[apim.analytics.url_group]]
