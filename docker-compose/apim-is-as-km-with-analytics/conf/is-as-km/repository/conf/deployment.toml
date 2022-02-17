@@ -1,7 +1,7 @@
 [server]
-hostname = "localhost"
-node_ip = "127.0.0.1"
-base_path = "https://$ref{server.hostname}:${carbon.management.port}"
+hostname = "20.105.182.140"
+node_ip = "20.105.182.140"
+base_path = "https://$ref{server.hostname}:9444"
 
 [super_admin]
 username = "admin"
@@ -10,7 +10,7 @@ create_admin_account = true
 
 [user_store]
 type = "read_write_ldap_unique_id"
-connection_url = "ldap://localhost:${Ports.EmbeddedLDAP.LDAPServerPort}"
+connection_url = "ldap://20.105.182.140:${Ports.EmbeddedLDAP.LDAPServerPort}"
 connection_name = "uid=admin,ou=system"
 connection_password = "admin"
 base_dn = "dc=wso2,dc=org"      #refers the base dn on which the user and group search bases will be generated
@@ -40,7 +40,7 @@ type = "org.wso2.carbon.identity.core.handler.AbstractIdentityHandler"
 name = "org.wso2.is.notification.ApimOauthEventInterceptor"
 order = 1
 [event_listener.properties]
-notification_endpoint = "https://localhost:9443/internal/data/v1/notify"
+notification_endpoint = "https://20.105.182.140:9444/internal/data/v1/notify"
 username = "${admin.username}"
 password = "${admin.password}"
 'header.X-WSO2-KEY-MANAGER' = "WSO2IS"
