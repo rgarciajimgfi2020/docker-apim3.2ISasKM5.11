@@ -26,7 +26,7 @@ type = "mysql"
 url = "jdbc:mysql://mysql:3306/WSO2AM_SHARED_DB?autoReconnect=true&amp;useSSL=false"
 username = "wso2carbon"
 password = "wso2carbon"
-driver = "com.mysql.cj.jdbc.Driver"
+#driver = "com.mysql.cj.jdbc.Driver"
 
 [keystore.primary]
 file_name = "wso2carbon.jks"
