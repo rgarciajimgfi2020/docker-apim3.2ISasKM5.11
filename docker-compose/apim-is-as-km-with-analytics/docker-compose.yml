@@ -34,6 +34,24 @@ services:
       timeout: 60s
       retries: 5
       start_period: 80s
+<<<<<<< HEAD
+=======
+  # am-analytics-worker:
+  #   build: ./dockerfiles/apim-analytics-worker
+  #   ports:
+  #     - "9091"
+  #     - "9444"
+  #   healthcheck:
+  #     test: ["CMD", "nc", "-z","localhost", "9444"]
+  #     interval: 10s
+  #     start_period: 20s
+  #     retries: 5
+  #   depends_on:
+  #     mysql:
+  #       condition: service_healthy
+  #   volumes:
+  #     - ./conf/apim-analytics-worker:/home/wso2carbon/wso2-config-volume
+>>>>>>> Feature_001_RogelioPC
   is-as-km:
     build: ./dockerfiles/is-as-km
     healthcheck:
@@ -84,6 +102,7 @@ services:
   #       condition: service_healthy
   #   volumes:
   #     - ./conf/apim-analytics-dashboard:/home/wso2carbon/wso2-config-volume
+<<<<<<< HEAD
   # am-analytics-worker:
   #   build: ./dockerfiles/apim-analytics-worker
   #   ports:
@@ -99,3 +118,5 @@ services:
   #       condition: service_healthy
   #   volumes:
   #     - ./conf/apim-analytics-worker:/home/wso2carbon/wso2-config-volume
+=======
+>>>>>>> Feature_001_RogelioPC
