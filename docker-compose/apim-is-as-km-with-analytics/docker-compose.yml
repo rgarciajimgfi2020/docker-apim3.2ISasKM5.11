@@ -75,8 +75,8 @@ services:
         condition: service_healthy
       # am-analytics-worker:
       #   condition: service_healthy
-      is-as-km:
-        condition: service_healthy
+      #is-as-km:
+        #condition: service_healthy
     volumes:
       - ./conf/apim:/home/wso2carbon/wso2-config-volume
     ports:
