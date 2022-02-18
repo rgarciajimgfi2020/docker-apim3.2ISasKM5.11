@@ -1,6 +1,6 @@
 [server]
-hostname = "20.105.182.140"
-node_ip = "20.105.182.140"
+hostname = "13.80.52.111"
+node_ip = "13.80.52.111"
 base_path = "https://$ref{server.hostname}:${carbon.management.port}"
 offset=1
 
@@ -41,7 +41,7 @@ type = "org.wso2.carbon.identity.core.handler.AbstractIdentityHandler"
 name = "org.wso2.is.notification.ApimOauthEventInterceptor"
 order = 1
 [event_listener.properties]
-notification_endpoint = "https://20.105.182.140:9444/internal/data/v1/notify"
+notification_endpoint = "https://13.80.52.111:9444/internal/data/v1/notify"
 username = "${admin.username}"
 password = "${admin.password}"
 'header.X-WSO2-KEY-MANAGER' = "WSO2IS"

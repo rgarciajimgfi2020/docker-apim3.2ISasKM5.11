@@ -1,6 +1,6 @@
 [server]
-hostname = "20.105.182.140"
-node_ip = "20.105.182.140"
+hostname = "13.80.52.111"
+node_ip = "13.80.52.111"
 #offset=0
 mode = "single" #single or ha
 base_path = "${carbon.protocol}://${carbon.host}:${carbon.management.port}"
@@ -56,7 +56,7 @@ type = "hybrid"
 display_in_api_console = true
 description = "This is a hybrid gateway that handles both production and sandbox token traffic."
 show_as_token_endpoint_url = true
-service_url = "https://20.105.182.140:${mgt.transport.https.port}/services/"
+service_url = "https://13.80.52.111:${mgt.transport.https.port}/services/"
 username= "${admin.username}"
 password= "${admin.password}"
 ws_endpoint = "ws://localhost:9099"
@@ -257,7 +257,7 @@ type = "org.wso2.carbon.identity.core.handler.AbstractIdentityHandler"
 name = "org.wso2.is.notification.ApimOauthEventInterceptor"
 order = 1
 [event_listener.properties]
-notification_endpoint = "https://20.105.182.140:${mgt.transport.https.port}/internal/data/v1/notify"
+notification_endpoint = "https://13.80.52.111:${mgt.transport.https.port}/internal/data/v1/notify"
 username = "${admin.username}"
 password = "${admin.password}"
 'header.X-WSO2-KEY-MANAGER' = "default"
