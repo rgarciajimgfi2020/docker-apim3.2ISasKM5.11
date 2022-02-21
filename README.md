@@ -26,3 +26,9 @@ https://medium.com/geekculture/integrating-wso2-apim-api-microgateway-with-wso2-
 
 SSO:
 https://apim.docs.wso2.com/en/3.2.0/develop/extending-api-manager/saml2-sso/configuring-external-idp-through-identity-server-for-sso/
+
+1.- Configuring Identity Server as IDP for SSO
+https://apim.docs.wso2.com/en/3.2.0/develop/extending-api-manager/saml2-sso/configuring-identity-server-as-idp-for-sso/
+
+2.- Configuración de IDP externo a través de Identity Server para SSO 
+https://apim.docs.wso2.com/en/3.2.0/develop/extending-api-manager/saml2-sso/configuring-external-idp-through-identity-server-for-sso/
