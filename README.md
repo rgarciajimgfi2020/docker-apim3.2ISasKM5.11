@@ -23,3 +23,6 @@ Docker images of WSO2 API Manager, API Manager Analytics and WSO2 Identity Serve
 
 URL:
 https://medium.com/geekculture/integrating-wso2-apim-api-microgateway-with-wso2-identity-server-2eb3c91caafc
+
+SSO:
+https://apim.docs.wso2.com/en/3.2.0/develop/extending-api-manager/saml2-sso/configuring-external-idp-through-identity-server-for-sso/
