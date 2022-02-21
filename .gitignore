@@ -7,7 +7,7 @@
 # Package Files #
 #*.jar
 !docker-compose/apim-is-as-km-with-analytics/dockerfiles/is-as-km/dropins/*.jar
-*.war
+#*.war
 !docker-compose/apim-is-as-km-with-analytics/dockerfiles/is-as-km/webapps/*.war
 *.ear
 
