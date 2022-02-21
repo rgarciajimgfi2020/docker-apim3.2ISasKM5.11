@@ -29,7 +29,7 @@ base_dn = "dc=wso2,dc=org"      #refers the base dn on which the user and group 
 
 
 [database.identity_db]
-url = "jdbc:mysql://mysql:3306/WSO2IDENTITY_DB?autoReconnect=true&amp;useSSL=false"
+url = "jdbc:mysql://mysql:3306/WSO2IS_IDENTITY_DB?autoReconnect=true&amp;useSSL=false"
 username = "wso2carbon"
 password = "wso2carbon"
 
