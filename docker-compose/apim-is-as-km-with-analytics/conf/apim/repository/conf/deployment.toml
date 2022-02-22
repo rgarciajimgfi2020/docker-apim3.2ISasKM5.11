@@ -111,9 +111,9 @@ https_endpoint = "https://localhost:${https.nio.port}"
 #analytics_auth_url =["ssl://analytics1:7712","ssl://analytics2:7712"]
 #type = "failover"
 
-[apim.key_manager]
-service_url = "https://is-as-km:${mgt.transport.https.port}/services/"
-type = "WSO2-IS"
+#[apim.key_manager]
+#service_url = "https://is-as-km:${mgt.transport.https.port}/services/"
+#type = "WSO2-IS"
 #username = "$ref{super_admin.username}"
 #password = "$ref{super_admin.password}"
 #pool.init_idle_capacity = 50
@@ -123,10 +123,10 @@ type = "WSO2-IS"
 #key_validation_handler_impl = "org.wso2.carbon.apimgt.keymgt.handlers.DefaultKeyValidationHandler"
 
 [apim.idp]
-server_url = "https://51.124.232.89:${mgt.transport.https.port}"
-authorize_endpoint = "https://51.124.232.89:${mgt.transport.https.port}/oauth2/authorize"
-oidc_logout_endpoint = "https://51.124.232.89:${mgt.transport.https.port}/oidc/logout"
-oidc_check_session_endpoint = "https://51.124.232.89:${mgt.transport.https.port}/oidc/checksession"
+server_url = "https://51.124.232.89:9444"
+authorize_endpoint = "https://51.124.232.89:9444/oauth2/authorize"
+oidc_logout_endpoint = "https://51.124.232.89:9444/oidc/logout"
+oidc_check_session_endpoint = "https://51.124.232.89:9444/oidc/checksession"
 
 #[apim.jwt]
 #enable = true
