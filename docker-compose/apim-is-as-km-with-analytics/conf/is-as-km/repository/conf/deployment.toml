@@ -19,15 +19,15 @@ create_admin_account = true
 #Esto se habilita para que use la bd database.shared_db, la cual es compartida en ambos nodos para la replicación de usuarios.
 
 #CUCUYOYE
-#[user_store]
-#type = "read_write_ldap_unique_id"
-#connection_url = "ldap://localhost:${Ports.EmbeddedLDAP.LDAPServerPort}"
-#connection_name = "uid=admin,ou=system"
-#connection_password = "admin"
-#base_dn = "dc=wso2,dc=org"      #refers the base dn on which the user and group search bases will be generated
-
 [user_store]
-type = "database_unique_id"   #refers the base dn on which the user and group search bases will be generated
+type = "read_write_ldap_unique_id"
+connection_url = "ldap://localhost:${Ports.EmbeddedLDAP.LDAPServerPort}"
+connection_name = "uid=admin,ou=system"
+connection_password = "admin"
+base_dn = "dc=wso2,dc=org"      #refers the base dn on which the user and group search bases will be generated
+
+#[user_store]
+#type = "database_unique_id"   #refers the base dn on which the user and group search bases will be generated
 
 [database.identity_db]
 url = "jdbc:mysql://mysql:3306/WSO2IS_IDENTITY_DB?autoReconnect=true&amp;useSSL=false"
