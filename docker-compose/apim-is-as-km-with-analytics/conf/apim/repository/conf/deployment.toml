@@ -7,6 +7,10 @@ base_path = "${carbon.protocol}://${carbon.host}:${carbon.management.port}"
 #discard_empty_caches = false
 server_role = "default"
 
+#Mantener los roles en apim
+[authentication.framework.extensions]
+provisioning_handler = "org.wso2.carbon.identity.application.authentication.framework.handler.provisioning.impl.SystemRolesRetainedProvisionHandler"
+
 [super_admin]
 username = "admin"
 password = "admin"
