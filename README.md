@@ -32,3 +32,6 @@ https://apim.docs.wso2.com/en/3.2.0/develop/extending-api-manager/saml2-sso/conf
 
 2.- Configuración de IDP externo a través de Identity Server para SSO 
 https://apim.docs.wso2.com/en/3.2.0/develop/extending-api-manager/saml2-sso/configuring-external-idp-through-identity-server-for-sso/
+
+
+RESULTADO:
