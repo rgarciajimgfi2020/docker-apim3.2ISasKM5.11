@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="51.124.232.89"><IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" validUntil="2022-02-23T08:39:57.769Z"><KeyDescriptor use="signing"><KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><X509Data><X509Certificate>MIIDlDCCAnygAwIBAgIED6LQETANBgkqhkiG9w0BAQsFADBnMQswCQYDVQQGEwJFUzESMBAGA1UE
+CBMJQU5EQUxVQ0lBMRAwDgYDVQQHEwdTZXZpbGxhMQ0wCwYDVQQKEwRXU08yMQswCQYDVQQLEwJF
+STEWMBQGA1UEAwwNKi53c28yLmluZXR1bTAeFw0yMjAyMjExMTQ5NDZaFw0zMjAyMTkxMTQ5NDZa
+MGcxCzAJBgNVBAYTAkVTMRIwEAYDVQQIEwlBTkRBTFVDSUExEDAOBgNVBAcTB1NldmlsbGExDTAL
+BgNVBAoTBFdTTzIxCzAJBgNVBAsTAkVJMRYwFAYDVQQDDA0qLndzbzIuaW5ldHVtMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsSBcTV0lBZoRlyeoaJEQTN3Orw1o652Y5fXionawS3Ki
+Pg2kIOJxnf8WnEoYBDbStAEV6kPLLXLX7Z4NG3CnjUMOXZuDisP022GQ0swutLxp7iZcq364pC8p
+xpfu3gQAj58Qk2DhfUN8Bi8+e1XAFxia/bkd6py749lYzZBiuE0za/w6TxyzSsl2iBlJM9Ukv418
+0SkX+uGgM7KhbUO0Sx+cqT3fhYrAeToCdeZFNW0K7h9Pg1WAbrGG+X97bJVNB0QEW9Q9ttf27wuo
+dghRF64FfVMmlBA1oaIKP04N2know7jlcPlJC2nMGmUWdtg7FIcWiFJi7p0JqZA5ckbnRwIDAQAB
+o0gwRjAdBgNVHQ4EFgQUAIxOwiTMSrI61di0zAqaovuw9QwwJQYDVR0RBB4wHIcEM3zoWYIUd3Nv
+Mmlza20ud3NvMi5pbmV0dW0wDQYJKoZIhvcNAQELBQADggEBAC13EUAt/RoQDLnH7ieJ1Tq9yAd6
+PCB7irQyoaI/y3fe29gHu1c5XrMhwgXtsRdJSvsiRTunBT6Ko4T3LqID7FwlwMSZCQdCPf7bC3Ju
+/EOxdsctV6PAOU1oQ150nHhPsNFik2Y0zAgu+jvvpKictYUkmb7WNqNIbi4xBERplybpRLrGcSDE
+eQceCOaogzou3ILr8I4HOriOJQk5AY4HPG3sdMNCd/10+oKkrddy73hVfWmnTkf0wgFay4lkBusJ
+htiiCr8g6oeR5BqewmKmq5YlNYvk8LSqDqfldsk0QGG9UbRrvd7yjCpiqvOd0a88ZDOquG4ekUBV
+x6QOURAf8Gw=</X509Certificate></X509Data></KeyInfo></KeyDescriptor><ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://51.124.232.89:9444/samlartresolve" index="1"/><SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://51.124.232.89:9444/samlsso" ResponseLocation="https://51.124.232.89:9444/samlsso"/><SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://51.124.232.89:9444/samlsso" ResponseLocation="https://51.124.232.89:9444/samlsso"/><SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://51.124.232.89:9444/samlsso" ResponseLocation="https://51.124.232.89:9444/samlsso"/><SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://51.124.232.89:9444/samlsso"/><SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://51.124.232.89:9444/samlsso"/></IDPSSODescriptor></EntityDescriptor>
