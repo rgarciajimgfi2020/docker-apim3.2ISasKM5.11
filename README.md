@@ -35,3 +35,23 @@ https://apim.docs.wso2.com/en/3.2.0/develop/extending-api-manager/saml2-sso/conf
 
 
 RESULTADO:
+
+
+Version 4.0 apim y IS 5.11
+Problemática con el fallo de login y borrado de permisos:
+https://github.com/wso2/carbon-identity-framework/blob/master/components/authentication-framework/org.wso2.carbon.identity.application.authentication.framework/src/main/java/org/wso2/carbon/identity/application/authentication/framework/handler/provisioning/impl/DefaultProvisioningHandler.java
+
+Lineas a tener en cuenta:
+            // Whether superadmin login without superadmin role is permitted
+            if (deletingRoles
+                    .contains(realm.getRealmConfiguration().getAdminRoleName())) {
+                if (log.isDebugEnabled()) {
+                    log.debug("Federated user doesn't have super admin role. Unable to sync roles, since" +
+                            " super admin role cannot be unassigned from super admin user");
+                }
+                throw new FrameworkException(
+                        "Federated user which having same username to super admin username of local IdP," +
+                                " trying login without having super admin role assigned");
+            }
+        }
+    }
